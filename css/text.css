@@ -1,0 +1,7 @@
+.header-main{
+    @apply text-white font-semibold lg:text-8xl text-6xl
+}
+
+.header-secondary{
+    @apply text-zinc-300 text-2xl font-light mt-8 lg:text-2xl md:text-xl text-base
+}

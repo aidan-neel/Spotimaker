@@ -1,0 +1,75 @@
+.nav-btn{
+    @apply text-zinc-300 text-base duration-100 hover:bg-zinc-900 p-2 px-4 rounded-md focus:outline-none 2xl:p-3
+}
+
+.nav-btn-selected{
+    @apply text-white bg-zinc-900 rounded-md focus:outline-none
+}
+
+.nav-social{
+    @apply h-7 w-7
+}
+
+.nav-spotify{
+    @apply bg-sky-500 text-white p-3 px-6 rounded-3xl duration-100 hover:shadow-lg
+}
+
+.btn-secondary{
+    @apply text-zinc-300 p-3 px-4 flex items-center justify-center text-center hover:text-white
+}
+
+.shadow-glow{
+    @apply shadow-md 4xl:shadow-lg shadow-sky-500/60
+}
+
+.btn-primary {
+    @apply relative overflow-hidden font-semibold text-white transition-all duration-100 rounded-lg bg-zinc-900;
+    background-image: linear-gradient(to right, #3875f8, #2563eb);
+    background-clip: border-box;
+    border: 2px solid transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-primary:hover {
+    @apply shadow-glow bg-zinc-950;
+}
+
+.btn-primary::after {
+    @apply bg-zinc-900 hover:bg-zinc-950;
+    content: "";
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0; 
+    z-index: -1;
+}
+
+.btn-primary-spotify {
+    @apply relative overflow-hidden font-semibold text-white transition-all duration-100 rounded-lg bg-zinc-900;
+    background-image: linear-gradient(to right, #1c81ce, #12538f);
+    background-clip: border-box;
+    border: 2px solid transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.btn-primary-spotify:hover {
+    @apply shadow-glow bg-zinc-950;
+}
+
+.btn-primary-spotify::after {
+    @apply bg-zinc-900 hover:bg-zinc-950;
+    content: "";
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0; 
+    z-index: -1;
+}
+
+.btn-bg{
+    @apply bg-sky-500 flex items-center justify-center w-[10.6rem] bg-gradient-to-r from-sky-400 via-blue-600 to-cyan-700 h-[3.7rem] rounded-lg;
+}

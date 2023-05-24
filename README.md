@@ -4,10 +4,6 @@
   <b>Create Spotify playlists automatically for whenever you can't think of new songs.</b>
 </p>
 
-<p align="center">
-  <a href="https://your-app-url.com">Live Demo</a> | <a href="https://your-app-url.com/docs">Documentation</a>
-</p>
-
 ## Features
 
 - Automatically detects songs from your previous listening activity

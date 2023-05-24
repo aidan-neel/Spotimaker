@@ -1,42 +1,24 @@
-# Nuxt 3 Minimal Starter
+<h1 align="center">Spotify Playlist Creator</h1>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<p align="center">
+  <img src="path/to/your/logo.png" alt="Logo" width="200" height="200">
+</p>
 
-## Setup
+<p align="center">
+  <b>Create and manage Spotify playlists easily with this web application!</b>
+</p>
 
-Make sure to install the dependencies:
+<p align="center">
+  <a href="https://your-app-url.com">Live Demo</a> | <a href="https://your-app-url.com/docs">Documentation</a>
+</p>
 
-```bash
-# yarn
-yarn install
+## Features
 
-# npm
-npm install
+- Search and add tracks from the Spotify catalog to your playlist
+- Create and name multiple playlists
+- Remove tracks from playlists
+- Save playlists to your Spotify account
+- User authentication with Spotify
+- Responsive design for mobile and desktop
 
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Technologies Used
